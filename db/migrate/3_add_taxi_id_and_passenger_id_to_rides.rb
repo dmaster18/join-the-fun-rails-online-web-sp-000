@@ -1,4 +1,4 @@
-class AddIDToRides < ActiveRecord::Migration
+class AddIDsToRides < ActiveRecord::Migration
   def change
     change_table :rides do |t|
       t.integer :taxi_id
