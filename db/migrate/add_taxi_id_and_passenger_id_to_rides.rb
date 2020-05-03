@@ -1,6 +1,6 @@
-class AddAuthorIdToPosts < ActiveRecord::Migration
+class AddTaxiIdAndPassangerIdToRides < ActiveRecord::Migration
   def change
-    change_table :posts do |t|
+    change_table :rides do |t|
       t.integer :author_id
     end
   end
